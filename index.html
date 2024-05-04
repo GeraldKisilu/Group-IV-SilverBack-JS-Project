@@ -44,24 +44,40 @@
 
     </div>
     <h4>Hello!
-        <p class="detailContainer">In the pursuit of educational excellence, managing and tracking school fee payments should
-             not be a burden for students or their families. Our website is designed to simplify this 
-             process, ensuring that students can focus on their studies without the stress of fee management. 
-             By providing a clear, user-friendly platform, we help maintain transparency and consistency in 
-             financial obligations related to education. To cater to different financial capabilities, our website
-              offers the flexibility of installment payments. The table provided below details the amounts to be 
-              paid depending on the type of installment chosen. This system is designed to accommodate diverse 
-              financial situations, making education accessible and manageable for everyone..</p>
+        <p class="detailContainer">In the pursuit of educational excellence, managing and tracking school fee payments
+            should not be a burden for students or their families. Our website is designed to simplify this
+            process, ensuring that students can focus on their studies without the stress of fee management.
+            By providing a clear, user-friendly platform, we help maintain transparency and consistency in
+            financial obligations related to education. To cater to different financial capabilities, our website
+            offers the flexibility of installment payments. The table provided below details the amounts to be
+            paid depending on the type of installment chosen. This system is designed to accommodate diverse
+            financial situations, making education accessible and manageable for everyone..</p>
     </h4>
 
     <div id="dashboard-container">
         <div id="sidebar">
             <h5>Dashboard</h5>
             <button id="people-btn"><i class="fa fa-users"></i> People</button><br>
-            <button id="show-announcements-btn"><i class="fa fa-bullhorn"></i> Report</button><br>
-            <button id="courses-btn"><i class="fa fa-book"></i> Courses</button><br>
-            <button id="calendar-btn"><i class="fa fa-calendar"></i> Calendar</button><br>
             <div id="namesContainer" style="display: none;"></div>
+            <button id="show-announcements-btn" class="report-button"><i class="fa fa-bullhorn"></i> Report</button><br>
+            <div id="popover-content" class="popover" style="display:none;">
+                Attention students: Late payments of tuition fees may result in extra charges. If you foresee any
+                difficulties in meeting deadlines, please contact the Admissions Office promptly for assistance.
+                Remember, early communication can help resolve issues effectively. Check for any notifications to keep
+                at per with the status or simply search your name via the search bar.
+            </div>
+            <button id="courses-btn" class="report-button"><i class="fa fa-book"></i> Courses</button><br>
+            <div id="courses">
+                <ul>
+                    <li><a href="Software-Engineering">SOFTWARE ENGINEERING</a></li>
+                    <li><a href="Cybersecurity">CYBERSECURITY</a></li>
+                </ul>
+            </div>
+            <button id="calendar-btn"><i class="fa fa-calendar"></i> Calendar</button><br>
+            <div id="calendar" style="display: none; position: absolute; background-color: white; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+                <!-- Calendar will be generated here -->
+            </div>
+
         </div>
 
         <table class="table">
@@ -113,6 +129,7 @@
 
 
         <script src="index.js"></script>
+
 </body>
 
 </html>
