@@ -2,20 +2,20 @@
 
 ## By
 This project was a group work effort participated by:
-Gerald Kisilu,
-Abdi Shukri,
-Valeria Wabwire,
-Edwin Mwangi, &
+Gerald Kisilu
+Abdi Shukri
+Valeria Wabwire
+Edwin Mwangi
 Emmanuel Waseth
 
 ## Description
-Our project entails keeping of students on track with their fee payments and giving them easy access to their status prior to the deadlines. It includes the following fetures:
-### MVP Features
-1. The user should be able to access a student dashboard where they can view their current fee balance and upcoming payment deadlines.  
-2. The user should be able to access their details using a search button that highlights their their fee payments and balances incase their is any it gives an alert that the status is pending otherwise it is cleared.
-3. The user should receive automatic notifications that send automatic reminders to students as payment deadlines approach.
-4. The user can also access a communication channel, such as an announcement section, where administrators can post important information regarding fee payment precautions and consequences.
-5. The user should be able to categorize the kind of installments they prefer to use and the various installments should have specific payment dates.
+
+
+## Installation
+You use git clone to be able to download the documents in the GitHub
+
+## Installation Requirements
+Git
 
 ## Live Link
 https://geraldkisilu.github.io/Group-IV-SilverBack-JS-Project/
